@@ -6,9 +6,8 @@ backend:
   name: github
   repo: arjunks-dev/stackbyarjun-Portfolio
   branch: main
-  # Production GitHub login (Cloudflare) — set after deploying workers/cms-oauth (see CMS_AUTH.md)
-  # base_url: https://stackbyarjun-cms-oauth.YOUR-SUBDOMAIN.workers.dev
-  # auth_endpoint: auth
+  base_url: https://stackbyarjun-cms-oauth.mail-arjunks.workers.dev
+  auth_endpoint: auth
 
 local_backend:
   url: http://localhost:8081/api/v1
