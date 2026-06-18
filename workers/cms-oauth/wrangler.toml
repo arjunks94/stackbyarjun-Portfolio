@@ -1,0 +1,6 @@
+name = "stackbyarjun-cms-oauth"
+main = "src/index.ts"
+compatibility_date = "2024-09-23"
+
+[observability]
+enabled = true

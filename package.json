@@ -13,7 +13,8 @@
     "format": "prettier --write \"src/**/*.{ts,tsx,js,jsx,json,css,md}\" \"content/**/*.{md,json,yml}\"",
     "pages:build": "npx @cloudflare/next-on-pages",
     "pages:preview": "npm run pages:build && wrangler pages dev .vercel/output/static",
-    "pages:deploy": "npm run pages:build && wrangler pages deploy .vercel/output/static"
+    "pages:deploy": "npm run pages:build && wrangler pages deploy .vercel/output/static",
+    "cms:oauth:deploy": "cd workers/cms-oauth && wrangler deploy"
   },
   "dependencies": {
     "@tailwindcss/typography": "^0.5.16",
