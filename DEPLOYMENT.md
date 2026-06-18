@@ -21,8 +21,8 @@ This portfolio supports deployment to **Cloudflare Pages**, **Vercel**, **Netlif
 | Setting | Value |
 |---------|-------|
 | **Framework preset** | Next.js |
-| **Build command** | `npm run build` |
-| **Build output directory** | *(leave default / auto)* |
+| **Build command** | `npm run pages:build` |
+| **Build output directory** | `.vercel/output/static` |
 | **Deploy command** | *(leave empty — do not use `wrangler deploy`)* |
 | **Root directory** | `/` |
 | **Node.js version** | `20` |

@@ -1,5 +1,5 @@
-# Used only for optional CLI deploys: npm run pages:deploy
-# Cloudflare Pages (Git) uses npm run build + Next.js preset — do not set pages_build_output_dir here.
+# Cloudflare Pages (Git): build command must be `npm run pages:build`
 name = "stackbyarjun-portfolio"
 compatibility_date = "2024-09-23"
 compatibility_flags = ["nodejs_compat"]
+pages_build_output_dir = ".vercel/output/static"
