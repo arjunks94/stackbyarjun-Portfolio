@@ -1,0 +1,118 @@
+{
+  "skills": [
+    {
+      "name": "Windows Server",
+      "category": "sysadmin",
+      "proficiency": 85,
+      "description": "AD, GPO, patching, user management"
+    },
+    {
+      "name": "Linux Administration",
+      "category": "sysadmin",
+      "proficiency": 78,
+      "description": "Ubuntu/CentOS, services, shell basics"
+    },
+    {
+      "name": "Active Directory",
+      "category": "sysadmin",
+      "proficiency": 82,
+      "description": "Users, groups, OU structure"
+    },
+    {
+      "name": "VMware / Hyper-V",
+      "category": "sysadmin",
+      "proficiency": 75,
+      "description": "Virtual machine provisioning & snapshots"
+    },
+    {
+      "name": "Backup & Recovery",
+      "category": "sysadmin",
+      "proficiency": 80,
+      "description": "Restore drills and retention policies"
+    },
+    {
+      "name": "TCP/IP",
+      "category": "networking",
+      "proficiency": 88,
+      "description": "Subnetting, routing, troubleshooting"
+    },
+    {
+      "name": "DNS & DHCP",
+      "category": "networking",
+      "proficiency": 85,
+      "description": "Resolution issues and scope management"
+    },
+    {
+      "name": "Firewalls",
+      "category": "networking",
+      "proficiency": 72,
+      "description": "ACL rules, NAT, basic policy review"
+    },
+    {
+      "name": "VPN",
+      "category": "networking",
+      "proficiency": 70,
+      "description": "Remote access and site-to-site basics"
+    },
+    {
+      "name": "Wireshark",
+      "category": "networking",
+      "proficiency": 65,
+      "description": "Packet capture and traffic analysis"
+    },
+    {
+      "name": "SIEM (Splunk / Sentinel One Datalake)",
+      "category": "cybersecurity",
+      "proficiency": 75,
+      "description": "Log ingestion and alert correlation"
+    },
+    {
+      "name": "Incident Triage",
+      "category": "cybersecurity",
+      "proficiency": 80,
+      "description": "SOC L1 alert review and escalation"
+    },
+    {
+      "name": "Threat Detection",
+      "category": "cybersecurity",
+      "proficiency": 72,
+      "description": "Malware, phishing, and IOC review"
+    },
+    {
+      "name": "Vulnerability Management",
+      "category": "cybersecurity",
+      "proficiency": 68,
+      "description": "Scan results and remediation tracking"
+    },
+    {
+      "name": "Security Fundamentals",
+      "category": "cybersecurity",
+      "proficiency": 78,
+      "description": "CIA triad, MITRE ATT&CK awareness"
+    },
+    {
+      "name": "Python Automation / Web Backend Developer",
+      "category": "development",
+      "proficiency": 55,
+      "description": "Scripts for logs, files, and automation , Web Server Backend using FastAPI"
+    },
+    {
+      "name": "JavaScript Front End Developer",
+      "category": "development",
+      "proficiency": 50,
+      "description": "Static Websites and Entry Level Web apps"
+    },
+    {
+      "name": "Git & GitHub",
+      "category": "development",
+      "proficiency": 60,
+      "description": "Version control for labs and projects"
+    },
+    {
+      "name": "Bash / PowerShell",
+      "category": "development",
+      "proficiency": 70,
+      "description": "Admin automation and task scheduling"
+    }
+  ]
+}

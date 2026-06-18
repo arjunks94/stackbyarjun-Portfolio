@@ -1,0 +1,28 @@
+{
+  "links": [
+    {
+      "platform": "GitHub",
+      "url": "https://github.com/stackbyarjun",
+      "icon": "github",
+      "label": "@stackbyarjun"
+    },
+    {
+      "platform": "LinkedIn",
+      "url": "https://linkedin.com/in/stackbyarjun",
+      "icon": "linkedin",
+      "label": "Arjun K S"
+    },
+    {
+      "platform": "Email",
+      "url": "mailto:hello@stackbyarjun.com",
+      "icon": "email",
+      "label": "hello@stackbyarjun.com"
+    },
+    {
+      "platform": "Telegram",
+      "url": "https://t.me/stackbyarjun",
+      "icon": "telegram",
+      "label": "@stackbyarjun"
+    }
+  ]
+}

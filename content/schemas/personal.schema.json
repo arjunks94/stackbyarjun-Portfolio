@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "PersonalInfo",
+  "type": "object",
+  "required": ["name", "title", "tagline", "bio", "email", "avatar", "resume"],
+  "properties": {
+    "name": { "type": "string" },
+    "title": { "type": "string" },
+    "tagline": { "type": "string" },
+    "bio": { "type": "string" },
+    "experienceSummary": { "type": "string" },
+    "email": { "type": "string", "format": "email" },
+    "location": { "type": "string" },
+    "avatar": { "type": "string" },
+    "resume": { "type": "string" },
+    "yearsOfExperience": { "type": "number" },
+    "projectsCompleted": { "type": "number" },
+    "technologiesCount": { "type": "number" },
+    "introTexts": { "type": "array", "items": { "type": "string" } }
+  }
+}

@@ -1,0 +1,159 @@
+# Local development — no GitHub login required.
+# Run: npm run cms  (in one terminal) + npm run dev  (in another)
+# Or:  npm run dev:all
+
+backend:
+  name: github
+  repo: arjunks94/stackbyarjun-Portfolio
+  branch: main
+
+local_backend:
+  url: http://localhost:8081/api/v1
+  allowed_hosts:
+    - localhost:3000
+    - 127.0.0.1:3000
+
+media_folder: public/images/uploads
+public_folder: /images/uploads
+
+collections:
+  - name: personal
+    label: Personal Information
+    files:
+      - name: info
+        label: Personal Info
+        file: content/personal/info.json
+        fields:
+          - { label: Name, name: name, widget: string }
+          - { label: Title, name: title, widget: string }
+          - { label: Tagline, name: tagline, widget: string }
+          - { label: Bio, name: bio, widget: text }
+          - { label: Experience Summary, name: experienceSummary, widget: text }
+          - { label: Email, name: email, widget: string }
+          - { label: Location, name: location, widget: string }
+          - { label: Avatar, name: avatar, widget: image }
+          - { label: Resume PDF, name: resume, widget: file }
+          - { label: Years of Experience, name: yearsOfExperience, widget: number }
+          - { label: Projects Completed, name: projectsCompleted, widget: number }
+          - { label: Technologies Count, name: technologiesCount, widget: number }
+          - label: Intro Texts
+            name: introTexts
+            widget: list
+            field: { label: Text, name: text, widget: string }
+
+  - name: social
+    label: Social Links
+    files:
+      - name: links
+        label: Social Links
+        file: content/social/links.json
+        fields:
+          - label: Links
+            name: links
+            widget: list
+            fields:
+              - { label: Platform, name: platform, widget: string }
+              - { label: URL, name: url, widget: string }
+              - { label: Icon, name: icon, widget: select, options: [github, linkedin, email, telegram, twitter, globe] }
+              - { label: Label, name: label, widget: string }
+
+  - name: skills
+    label: Skills
+    files:
+      - name: skills
+        label: Skills List
+        file: content/skills/skills.json
+        fields:
+          - label: Skills
+            name: skills
+            widget: list
+            fields:
+              - { label: Name, name: name, widget: string }
+              - label: Category
+                name: category
+                widget: select
+                options: [sysadmin, networking, cybersecurity, development]
+              - { label: Proficiency, name: proficiency, widget: number, min: 0, max: 100 }
+              - { label: Description, name: description, widget: string, required: false }
+
+  - name: projects
+    label: Projects
+    folder: content/projects
+    create: true
+    slug: "{{slug}}"
+    extension: md
+    format: frontmatter
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Description, name: description, widget: text }
+      - { label: Cover Image, name: coverImage, widget: image }
+      - label: Tech Stack
+        name: techStack
+        widget: list
+        field: { label: Technology, name: tech, widget: string }
+      - { label: GitHub URL, name: githubUrl, widget: string, required: false }
+      - { label: Live URL, name: liveUrl, widget: string, required: false }
+      - { label: Featured, name: featured, widget: boolean, default: false }
+      - { label: Date, name: date, widget: datetime }
+      - { label: Body, name: body, widget: markdown }
+
+  - name: experience
+    label: Experience
+    folder: content/experience
+    create: true
+    slug: "{{slug}}"
+    extension: md
+    format: frontmatter
+    fields:
+      - { label: Company, name: company, widget: string }
+      - { label: Role, name: role, widget: string }
+      - { label: Location, name: location, widget: string }
+      - { label: Start Date, name: startDate, widget: datetime }
+      - { label: End Date, name: endDate, widget: datetime, required: false }
+      - { label: Current, name: current, widget: boolean, default: false }
+      - { label: Description, name: description, widget: text }
+      - label: Highlights
+        name: highlights
+        widget: list
+        field: { label: Highlight, name: highlight, widget: string }
+      - label: Technologies
+        name: technologies
+        widget: list
+        field: { label: Technology, name: tech, widget: string }
+
+  - name: certifications
+    label: Certifications
+    folder: content/certifications
+    create: true
+    slug: "{{slug}}"
+    extension: md
+    format: frontmatter
+    fields:
+      - { label: Name, name: name, widget: string }
+      - { label: Issuer, name: issuer, widget: string }
+      - { label: Date, name: date, widget: datetime }
+      - { label: Credential ID, name: credentialId, widget: string, required: false }
+      - { label: Verification URL, name: verificationUrl, widget: string, required: false }
+      - { label: Image, name: image, widget: image, required: false }
+      - { label: Description, name: description, widget: text, required: false }
+
+  - name: blog
+    label: Blog Posts
+    folder: content/blog
+    create: true
+    slug: "{{slug}}"
+    extension: md
+    format: frontmatter
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Description, name: description, widget: text }
+      - { label: Cover Image, name: coverImage, widget: image, required: false }
+      - { label: Date, name: date, widget: datetime }
+      - label: Tags
+        name: tags
+        widget: list
+        field: { label: Tag, name: tag, widget: string }
+      - { label: Category, name: category, widget: string }
+      - { label: Draft, name: draft, widget: boolean, default: false }
+      - { label: Featured, name: featured, widget: boolean, default: false }
+      - { label: Body, name: body, widget: markdown }
