@@ -1,44 +1,38 @@
 ---
-company: Sun Siyam Resorts Pvt Ltd
-role: System & Bussiness Analyst
-location: Male City, Maldives
-startDate: 2019-10-29T11:49:00.000+05:00
-endDate: 2022-03-10T00:00:00.000+05:00
+company: Marriott International (Sheraton Grand Doha)
+role: Information Technology Supervisor
+location: Doha, Qatar
+startDate: 2022-01-04T00:00:00.000+05:00
+endDate: 2024-01-20T12:01:00.000+05:00
 current: false
-description: Served as a System & Business Analyst, providing Level 1 and Level
-  2 technical support for all five resorts within the Sun Siyam Group.
-  Responsible for troubleshooting and resolving software-related issues across
-  multiple business applications, ensuring minimal operational disruption.
-  Managed and maintained enterprise server environments, including system
-  monitoring, performance optimization, security administration, and incident
-  resolution. Administered and supported Google Workspace (G Suite) services,
-  including email domain management, user account administration, security
-  policies, and mail flow troubleshooting. Performed Oracle Database
-  troubleshooting and support, assisting with database-related issues,
-  connectivity problems, performance concerns, and application integration
-  support. Collaborated with cross-functional teams, vendors, and resort
-  stakeholders to identify business requirements, implement technology
-  solutions, and maintain reliable IT services across geographically distributed
-  properties. Ensured adherence to IT security standards, system availability,
-  and operational best practices to support the organization's business
-  objectives.
+description: Managed daily IT operations in alignment with Marriott
+  International standards, delivering exceptional technical support to both
+  staff and guests. Supported and maintained critical hospitality systems,
+  network infrastructure, backup solutions, and security platforms to ensure
+  high availability, operational efficiency, and an excellent guest experience.
+  Coordinated IT support activities, troubleshooting, system maintenance, and
+  infrastructure management across hotel operations
 highlights:
-  - Administered Google Workspace (G Suite) services, handling email domain
-    management, user accounts, security policies, and mail flow issues.
-  - Performed Oracle Database troubleshooting and support, resolving database
-    connectivity, performance, and application-related issues.
-  - Collaborated with business stakeholders, vendors, and IT teams to implement
-    technology solutions, improve operational efficiency, and maintain high
-    service availability across multiple resort properties.
-  - Managed and maintained enterprise server infrastructure, including system
-    monitoring, performance optimization, security administration, and
-    troubleshooting.
+  - Provided technical leadership and IT support for hotel staff and guests,
+    ensuring compliance with Marriott International IT standards and service
+    levels.
+  - Managed enterprise backup and recovery operations using HPE Tape Library,
+    Veritas Backup Exec, and Veeam Backup & Replication.
+  - Administered and supported VingCard/ASSA ABLOY electronic door lock systems,
+    ensuring secure guest access and system reliability.
+  - Managed HPE Aruba network infrastructure, including switches, wireless
+    access points, VLANs, and Wi-Fi performance optimization.
+  - Troubleshot and resolved hardware, software, network, and hospitality
+    application issues to maintain uninterrupted hotel operations.
 technologies:
-  - Oracle 19C DBMS
-  - Fortinet Site 2 Site VPN
-  - Infor SunSystems 6.3
-  - Oracle Weblogic Webserver
-  - Microsoft Excel VBA
-  - Google G-suit Email Console
-  - Windows Server 2019
+  - "Infrastructure & Systems : Windows Server | Active Director | DNS | DHCP |
+    GPO | VMWARE"
+  - "Backup & Recovery : Veeam Backup & Replication | Veritas Backup Exec | HPE
+    Tape Library | Disaster Recovery | Data Protection"
+  - "Networking : HPE Aruba Networking | Aruba Access Points | VLANs | TCP/IP |
+    Network Troubleshooting"
+  - "Hospitality Systems : ASSA ABLOY VingCard | Guest Wi-Fi Support |
+    Hospitality IT Operations"
+  - "IT Operations : Service NOW ITSM | Asset Management | Vendor Coordination |
+    IT Security | End-User Support"
 ---
